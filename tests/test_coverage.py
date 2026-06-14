@@ -46,7 +46,8 @@ def test_upsert_coverage_merges_feature_ids(client: TestClient) -> None:
     assert second.json()["coveredFeatureIds"] == ["demo-1-1", "demo-1-2", "demo-2-1"]
 
 
-def test_coverage_requires_existing_profile(client: TestClient) -> None:
+def test_get_empty_coverage_for_unknown_profile(client: TestClient) -> None:
     response = client.get("/coverage?userId=11111111-1111-1111-1111-111111111111&areaId=warsaw-demo-v1")
 
-    assert response.status_code == 404
+    assert response.status_code == 200
+    assert response.json()["coveredFeatureIds"] == []
