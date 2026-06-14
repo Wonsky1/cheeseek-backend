@@ -1,0 +1,12 @@
+[project]
+name = "myshachki-backend"
+version = "0.1.0"
+description = "Small FastAPI POC backend for Myshachki"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.3",
+    "httpx>=0.28.1",
+    "pytest>=9.0.2",
+    "uvicorn[standard]>=0.38.0",
+]

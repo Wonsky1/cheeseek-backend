@@ -1,0 +1,1 @@
+"""Myshachki backend package."""
