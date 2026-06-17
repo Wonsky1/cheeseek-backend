@@ -1,6 +1,6 @@
-﻿# Myshachki Backend
+﻿# Cheeseek Backend
 
-Small FastAPI POC backend for the private Myshachki walking app.
+Small FastAPI POC backend for the private Cheeseek walking app.
 
 This version intentionally uses **in-memory storage**. Data resets whenever the server restarts. Nickname is also only a convenience identity for the POC, not real authentication.
 

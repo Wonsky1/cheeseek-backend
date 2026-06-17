@@ -1,7 +1,7 @@
 [project]
-name = "myshachki-backend"
+name = "cheeseek-backend"
 version = "0.1.0"
-description = "Small FastAPI POC backend for Myshachki"
+description = "Small FastAPI POC backend for Cheeseek"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

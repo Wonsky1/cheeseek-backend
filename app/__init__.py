@@ -1,1 +1,1 @@
-"""Myshachki backend package."""
+"""Cheeseek backend package."""

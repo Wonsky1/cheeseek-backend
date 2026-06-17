@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routers import coverage, health, map_data, profiles, routes, shared_progress, walk_sessions
 
 app = FastAPI(
-    title="Myshachki Backend",
+    title="Cheeseek Backend",
     description="Small in-memory POC backend for the private walking app.",
     version="0.1.0",
 )
